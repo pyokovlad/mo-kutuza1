@@ -546,39 +546,6 @@ blockquote cite {
     font-size: 15px
 }
 
-form.fm {
-    display: grid;
-    gap: 14px
-}
-
-form.fm h2 {
-    font-size: 22px
-}
-
-label {
-    display: grid;
-    gap: 5px;
-    font: 500 12px Oswald, sans-serif;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: var(--mute)
-}
-
-input,
-textarea {
-    font: 16px 'PT Sans', sans-serif;
-    padding: 10px 12px;
-    background: var(--bg);
-    border: 1px solid var(--ln);
-    color: var(--ink);
-    width: 100%
-}
-
-input:focus,
-textarea:focus {
-    border-color: var(--or)
-}
-
 @media(max-width:800px) {
     #burger {
         display: block
